@@ -1,0 +1,159 @@
+@font-face {
+  font-family: "Inter-Regular";
+  src: url("../assets/fonts/static/Inter-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Inter-Bold";
+  src: url("../assets/fonts/static/Inter-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Inter-ExtraBold";
+  src: url("../assets/fonts/static/Inter-ExtraBold.ttf");
+}
+
+@font-face {
+  font-family: "Inter-Var";
+  src: url("../assets/fonts/Inter-VariableFont_slnt\,wght.ttf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 68.5%;
+}
+
+.header {
+  padding: 20px;
+}
+
+.header img {
+  width: 50px;
+}
+
+.header__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container__main {
+  padding: 10px;
+}
+
+.container__main img {
+  width: 100%;
+}
+
+.container__main-firstSection {
+  margin: 10px 0;
+  padding: 10px;
+}
+
+.container__main-firstSection h3 {
+  font-size: 3.7rem;
+  font-family: "Inter-ExtraBold";
+}
+
+.container__main-firstSection p {
+  font-size: 1.4rem;
+  line-height: 26px;
+  font-family: "Inter-Regular";
+  margin-top: 10px;
+}
+
+.container__main-firstSection a {
+  padding: 12px 30px;
+  margin-top: 20px;
+  font-size: 1.4rem;
+  letter-spacing: 3px;
+  display: inline-block;
+
+  font-family: "Inter-Var";
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #fff;
+  background-color: hsl(5, 85%, 63%);
+}
+
+.container__main-articles {
+  background-color: hsl(240, 100%, 5%);
+  padding: 20px;
+}
+
+.container__main-articles > div > h4 {
+  color: hsl(35, 77%, 62%);
+  font-size: 2.6rem;
+  font-family: "Inter-Bold";
+}
+
+.container__main-article {
+  border-bottom: 1px solid hsl(233, 8%, 79%);
+  padding: 20px 0px;
+}
+
+.container__main-article:last-child {
+  border-bottom: none;
+  padding-bottom: 0px;
+}
+
+.container__main-article h4 {
+  color: #fff;
+  font-size: 2rem;
+  font-family: "Inter-Regular";
+}
+
+.container__main-article p {
+  color: hsl(236, 13%, 42%);
+  font-family: "Inter-Regular";
+  font-size: 1.5rem;
+  margin: 10px 0px;
+}
+
+.container__main-retroArticles {
+  margin-top: 50px;
+}
+
+.container__main-retroArticle {
+  display: flex;
+  margin: 26px 0px;
+}
+
+.container__main-retroArticle:last-child {
+  margin-bottom: 50px;
+}
+
+.container__main-retroArticle div {
+  margin-left: 20px;
+}
+
+.container__main-retroArticle div h4 {
+  font-family: "Inter-Bold";
+  font-size: 2.4rem;
+  color: hsl(233, 8%, 79%);
+}
+
+.container__main-retroArticle div h3 {
+  font-family: "Inter-ExtraBold";
+  font-size: 1.6rem;
+  color: hsl(240, 100%, 5%);
+
+  margin: 10px 0px;
+}
+
+.container__main-retroArticle div p {
+  font-family: "Inter-Regular";
+  font-size: 1.4rem;
+  color: hsl(236, 13%, 42%);
+  line-height: 25px;
+}
+
+.container__main-retroArticle img {
+  width: 120px;
+  height: 120px;
+}
