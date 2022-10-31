@@ -29,6 +29,8 @@ html {
 }
 
 .header {
+  max-width: 1000px;
+  margin: 0 auto;
   padding: 20px;
 }
 
@@ -40,6 +42,15 @@ html {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.header__desktopMenu {
+  display: none;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
 .container__main {
@@ -62,7 +73,7 @@ html {
 
 .container__main-firstSection p {
   font-size: 1.4rem;
-  line-height: 26px;
+  line-height: 36px;
   font-family: "Inter-Regular";
   margin-top: 10px;
 }
@@ -130,6 +141,7 @@ html {
 
 .container__main-retroArticle div {
   margin-left: 20px;
+  width: 70%;
 }
 
 .container__main-retroArticle div h4 {
@@ -156,4 +168,22 @@ html {
 .container__main-retroArticle img {
   width: 120px;
   height: 120px;
+}
+
+@media (min-width: 1024px) {
+  .header__desktopMenu {
+    display: flex;
+  }
+
+  .header__desktopMenu a {
+    margin: 0px 10px;
+    text-decoration: none;
+    font-family: "Inter-Regular";
+    font-size: 1.4rem;
+    color: hsl(236, 13%, 42%);
+  }
+
+  .header__menuIcon {
+    display: none;
+  }
 }
