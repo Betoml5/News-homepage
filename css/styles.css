@@ -171,8 +171,22 @@ html {
 }
 
 @media (min-width: 1024px) {
+  .container__main {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .container__main picture {
+    grid-column: 1/3;
+  }
+
   .header__desktopMenu {
     display: flex;
+  }
+
+  .container__main-articles {
+    grid-column: 3/4;
+    grid-row: 1/2;
   }
 
   .header__desktopMenu a {
@@ -185,5 +199,9 @@ html {
 
   .header__menuIcon {
     display: none;
+  }
+
+  .container__main-firstSection {
+    display: flex;
   }
 }
